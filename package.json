@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test_ui": "testcafe tests/ui-test/test-case/",
+    "test_api": "mocha tests/api-test/test-case/*.js --reporter mocha-allure-reporter --reporter-options targetDir=allure/allure-results ",
+    "allure_report": "allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report"
   },
   "repository": {
     "type": "git",
