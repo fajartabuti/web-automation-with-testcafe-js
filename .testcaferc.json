@@ -1,0 +1,16 @@
+{
+    "selectorTimeout": 10000,
+    "assertionTimeout": 10000,
+    "pageLoadTimeout": 3000,
+    "speed": 1,
+    "concurrency": 1,
+    "browsers": "chrome", 
+    "reporter": "allure-custom",
+    "screenshots": {
+        "takeOnFails": true,
+        "path": "artifacts/screenshots",
+        "fullPage": true,
+        "pathPattern": "${DATE}/${FIXTURE}/${TEST}/${FILE_INDEX}.png"
+    },
+    "skipJsErrors": true
+}

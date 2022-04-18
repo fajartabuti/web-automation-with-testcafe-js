@@ -1,0 +1,29 @@
+{
+  "name": "automation-portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fajartabuti/automation-portofolio.git"
+  },
+  "author": "Fajar Tri Saputra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fajartabuti/automation-portofolio/issues"
+  },
+  "homepage": "https://github.com/fajartabuti/automation-portofolio#readme",
+  "devDependencies": {
+    "allure-commandline": "^2.17.2",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "mocha": "^9.2.2",
+    "mocha-allure-reporter": "^1.4.0",
+    "supertest": "^6.2.2",
+    "testcafe": "^1.18.4",
+    "testcafe-reporter-allure-custom": "^1.1.3"
+  }
+}
