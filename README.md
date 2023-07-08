@@ -6,7 +6,7 @@
 3. Create an `.env` file in the root of the project folder with the contents according to the file sent
 
 ## A. Run UI Test ##
-1. Make sure you already have the Chrome browser, if not, change the browser parameters in the `.testcaferc.json` file according to the browser installed on the PC. c/o : firefox, chromium, etc.
+1. Make sure you already have the Chrome browser, if not, change the browser parameters in the `.testcaferc.json` file according to the browser installed on the PC. ex : firefox, chromium, etc.
 2. Open a terminal in the root of the project folder
 3. Run the command `npm run test_ui` to run the automation test
 4. The UI automation test has been successfully executed, marked with the message 'allure reporter started...' on the terminal
