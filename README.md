@@ -1,3 +1,5 @@
+# UI AUTOMATION TEST WITH TESTCAFE JS #
+
 ## Requirements ##
 1. Pastikan telah terinstall NodeJS dan npm
 2. jalankan perintah `npm i`
