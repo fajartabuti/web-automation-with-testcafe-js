@@ -1,22 +1,22 @@
 # UI AUTOMATION TEST WITH TESTCAFE JS #
 
 ## Requirements ##
-1. Pastikan telah terinstall NodeJS dan npm
-2. jalankan perintah `npm i`
-3. buat file `.env` pada root folder project dengan isi sesuai dengan data yang dikirimkan
+1. Make sure you have installed NodeJS and npm
+2. Run the `npm i` command to install all dependencies
+3. Create an `.env` file in the root of the project folder with the contents according to the file sent
 
-## A. Menjalankan UI automation ##
-1. Pastikan sudah ada browser chrome, jika tidak ada ubah parameter browser pada file `.testcaferc.json` sesuai dengan browser yang terinstall pada PC. c/o : firefox, chromium, dll.
-2. Buka terminal pada root folder folder
-3. jalankan perintah `npm run test_ui`
-4. UI automation test berhasil dijalankan ditandai dengan kalimat 'allure reporter started...' pada terminal
-5. tunggu sampai automation selesai berjalan, ditandai dengan kalimat 'allure reporter closed...' pada terminal
+## A. Run UI Test ##
+1. Make sure you already have the Chrome browser, if not, change the browser parameters in the `.testcaferc.json` file according to the browser installed on the PC. c/o : firefox, chromium, etc.
+2. Open a terminal in the root of the project folder
+3. Run the command `npm run test_ui` to run the automation test
+4. The UI automation test has been successfully executed, marked with the message 'allure reporter started...' on the terminal
+5. Wait until the automation has finished running, marked with the message 'allure reporter closed...' on the terminal
 
-## B. Menjalankan API automation ##
-1. Buka terminal pada root folder folder
-2. jalankan perintah `npm run test_api`
-3. tunggu sampai automation selesai berjalan.
+## B. Run Api Test ##
+1. Open a terminal in the root of the project folder
+2. Run the `npm run test_api` command
+3. Wait until the automation has finished running.
 
-## C. Membuka report hasil dari pengetesan ##
-1. jalankan perintah `npm run allure_report` pada terminal untuk generate dan membuka report dari hasil pengetesan
-2. automation report terbuka secara otomatis pada browser.
+## C. Open the Test Report ##
+1. Run the `npm run allure_report` command in the terminal to generate and open a report from the test results
+2. Automation report opens automatically in the browser.
